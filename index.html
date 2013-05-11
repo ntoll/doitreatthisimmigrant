@@ -18,21 +18,32 @@
                 margin: 0;
                 padding: 0;
             }
-            p {
+            p, hr {
                 width: 60%;
                 margin-left: auto;
                 margin-right: auto;
                 text-align: left;
             }
+            hr {
+                color: #eee;
+                border-bottom: 0;
+            }
             a, a:visited {
                 color: #00F;
+            }
+            .footer {
+                text-align: center;
+                font-size: 10px;
+            }
+            .info {
+                text-align: center;
             }
             @media only screen and (max-width: 767px) {
                 body {
                     padding-top: 20px;
                 }
 
-                p {
+                p, hr {
                     width: 80%;
                 }
             }
@@ -43,10 +54,10 @@
                 }
 
                 body {
-                    padding-top: 20px;
+                    padding-top: 10px;
                 }
 
-                p {
+                p, hr {
                     width: 90%;
                 }
             }
@@ -55,9 +66,14 @@
     <body>
         <h1>Yes</h1>
         <p>I WILL NOT PERMIT considerations of age, disease or disability, creed, ethnic origin, gender, nationality, political affiliation, race, sexual orientation, social standing or any other factor to intervene between my duty and my patient;</p>
-        <p><small>Item #9 of the World Medical Association's <a href="http://www.wma.net/en/30publications/10policies/g1/index.html">Declaration of Geneva</a>.</small></p>    
+        <p><small>Item #9 of the World Medical Association's <a href="http://www.wma.net/en/30publications/10policies/g1/index.html">declaration of Geneva</a>.</small></p>
         <p>MAKE THE CARE OF YOUR PATIENT YOUR FIRST CONCERN; Protect and promote the health of patients and the public; Respect patients' right to confidentiality; Never discriminate unfairly against patients or colleagues; </p>
-        <p><small>from The duties of a doctor registered with the General Medical Council<a href="http://www.gmc-uk.org/guidance/good_medical_practice/duties_of_a_doctor.asp">Duties of a doctor</a>.</small></p>
-        
+        <p><small>The General Medical Council's <a href="http://www.gmc-uk.org/guidance/good_medical_practice/duties_of_a_doctor.asp">duties of a doctor</a>.</small></p>
+        <div class="info">
+        <a href="https://twitter.com/share" class="twitter-share-button" data-text="An extraordinarily useful healthcare app that works all over the world:" data-via="ntoll" data-hashtags="nhshd">Tweet</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        </div>
+        <hr/>
+        <p class="footer">&copy; 2013 <a href="http://ntoll.org/">Nicholas H.Tollervey</a></p>
     </body>
 </html>
